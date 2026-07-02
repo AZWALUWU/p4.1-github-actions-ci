@@ -96,7 +96,7 @@ jobs:
 
       # Anggap ini proses build/bundling aplikasi (misal menghasilkan folder produksi)
       # Di project sederhana ini, kita buat folder 'dist' tiruan dan mengisinya dengan file utama
-       Berkaitan dengan: 'Artifact upload/download untuk berbagi hasil'
+      # Berkaitan dengan: 'Artifact upload/download untuk berbagi hasil'
       - name: Build Application
         run: |
           mkdir dist
